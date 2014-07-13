@@ -1,0 +1,12 @@
+{
+    "name": "QueryBuilder",
+    "authors": [
+        {
+            "name": "Mario Marinero",
+            "email": "mariomarinero@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    }
+}
