@@ -1,4 +1,4 @@
-<?php
+<?php namespace MMarinero\Database;
 
 /**
  * PHP query builder 

@@ -1,11 +1,22 @@
 {
-    "name": "QueryBuilder",
+    "name": "mmarinero/querybuilder",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "keywords": ["database", "query", "builder"],
     "authors": [
         {
             "name": "Mario Marinero",
-            "email": "mariomarinero@gmail.com"
+            "email": "mariomarinero@gmail.com",
+            "role": "Developer"
         }
     ],
+    "autoload": {
+        "psr-4": {"MMarinero\\Database\\": "src/"}
+    },
+    "require": {
+        "php": ">=5.4"
+    },
     "require-dev": {
         "phpunit/phpunit": "4.1.*"
     }
